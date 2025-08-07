@@ -1,28 +1,30 @@
 # 🏦 Loan Default Prediction
 
-## 📌 Objective
-Build a machine learning model to predict whether a loan application will be approved based on applicant details such as income, education, credit history, and employment.
+This project predicts whether a loan will be approved based on applicant details using a machine learning model.
 
-## 📊 Dataset
-- **Source:** [Kaggle - Loan Prediction Problem Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
-- Files used: `train.csv`, `test.csv`
-- Target column: `Loan_Status`
+## 🔍 Dataset
+- **Source**: [Kaggle Loan Prediction Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
+- Contains demographic and financial details of applicants.
 
-## ⚙️ Technologies Used
+## 🛠️ Tools Used
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
-- Scikit-learn
-- Jupyter Notebook
+- Scikit-learn (Random Forest)
+- Streamlit (for Web App)
 
-## 🚀 What This Project Does
-- Loads and explores the data
-- Handles missing values
-- Encodes categorical variables
-- Builds and evaluates a Random Forest Classifier
-- Outputs accuracy, confusion matrix, and classification report
+## 🚀 Features
+- Predict loan approval based on applicant info
+- Simple and clean web interface using Streamlit
+- Explains reason for loan rejection
 
-## 📈 Results
-- Achieved ~80% accuracy using Random Forest (default settings)
+## 📊 Model
+- **Algorithm**: Random Forest Classifier
+- **Accuracy**: Achieved during evaluation on test data
+- **Reasoning**: Identifies top 3 important features behind decisions
 
-## 🗂️ Project Structure
+## 🖥️ How to Run the App Locally
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/LakshmiNarayana-Myla/loan-default-prediction.git
+   cd loan-default-prediction
